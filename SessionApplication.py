@@ -253,5 +253,6 @@ def main():
             displayRegions(pd)
         elif userInput == "e":
             displaySettlements(pd)
+    dbcon.close()
 
 main()
